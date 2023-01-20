@@ -9,7 +9,7 @@ type StoreItemProps = {
 }
 
 
-export default function StoreItem({id, name, price, imgUrl}: StoreItemProps){
+const StoreItem = ({id, name, price, imgUrl}: StoreItemProps) =>{
   const quantity = 0
   return(
     <Card className="h-100">
@@ -45,3 +45,4 @@ export default function StoreItem({id, name, price, imgUrl}: StoreItemProps){
   )
 
 }
+export default StoreItem

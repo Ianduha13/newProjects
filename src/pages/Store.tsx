@@ -3,7 +3,7 @@ import storeItems from '../data/items.json'
 import StoreItem from '../components/StoreItem'
 
 
-export default function Store(){
+const Store = () =>{
   return (
     <>
     <h1>Store</h1>
@@ -17,3 +17,4 @@ export default function Store(){
     </>
   )
 }
+export default Store
