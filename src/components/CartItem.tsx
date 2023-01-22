@@ -15,7 +15,9 @@ const CartItem = ({id, quantity}: CartItemProps) =>{
       <div className="me-auto">
         <div>
           {item.name} 
-          {quantity> 1 && <span className="text-muted" style={{fontSize:".65rem"}}>x{quantity}</span>}
+          {quantity > 1 && <span className="text-muted" style={{fontSize:".65rem"}}>
+            x{quantity}
+            </span>}
         </div>
       </div>
     </Stack>
